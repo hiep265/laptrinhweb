@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://tocotocotea.com/wp-content/uploads/2022/06/Slide_banner-1-1.jpg);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    
+}
+.navbar{
+    display: flex;
+    width: 1140px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar__logo__menu{
+    display: flex;
+    align-items: center;
+    font: 14px Barlow;
+}
+.navbar__menu{
+    display: flex;
+
+}
+.navbar__logo>a>img{
+    width: 200px;
+    height: 53.33px;
+}
+.navbar__menu>ul>li a{
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 28px;
+    /* font: 14px Muli; */
+    font-family: sans-serif;
+}
+
+.navbar__menu >ul{
+    display: flex;
+    list-style: none;
+}
+.icon{
+    color: aliceblue;
+}
+.navbar__menu{
+    padding: 28px;
+}
+.drop>li{
+    list-style: none;
+}
+.navbar__menu>ul{
+    position: relative;
+}
+.drop{
+    position: absolute;
+}
+.drop{
+    background-color: rgb(41, 38, 38);
+    
+}
+.drop li {
+    padding: 20px 15px;
+    border-bottom: 1px solid rgb(117, 114, 114);
+}
+.drop li:last-child{
+    border-bottom: none;
+}
+.drop{
+    display: none;
+}
+.lish:hover .drop{
+    display: block;
+}
+
+.lish>a::before{
+    content: "";
+    display: none;
+    width: 100%;
+    height: 4px;
+    border-bottom: 2px solid white;
+    position: absolute;
+    bottom: 0;
+}
+.lish>a{
+    position: relative;
+    margin-bottom: 10px;
+}
+.lish:hover>a::before{
+    display: block;
+}
+.drop>li:hover >a{
+    color:#D3B673;
+}
+.drop--icon::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
+    color: white;
+    font-size: 13px;
+    margin-left: 3px;
+    
+}

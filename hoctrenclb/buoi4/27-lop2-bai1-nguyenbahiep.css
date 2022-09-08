@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 384px;
+    height: auto;
+    background-color: brown;
+}
+.menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu li{
+    list-style: none;
+    padding: 8px 0px;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+.menu >li> ul{
+    position: absolute;
+    left: 384px;
+    background-color: brown;
+    top: 0;
+}
+.menu>li>ul>li{
+    width: 200px;
+
+}
+.menu >li> ul>li{
+    position: relative;
+}
+.menu >li >ul> li> ul{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    background-color: brown;
+}
+.menu >li >ul> li> ul>li{
+    width: 200px;
+}
+.menu li:hover {
+    background-color: red;
+}
+.menu li:hover> a{
+    color: yellow;
+}
+/* drop */
+.drop{
+    display: none;
+}
+.menu li:hover >ul{
+    display: block;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="link.js"></script>
+</head>
+<body>
+<h2>HTML forms</h2>
+<form id="luutru">
+	<fieldset>
+		<legend><em>thông tin liên lạc</em></legend>
+		<label for="fname">tên của bạn:</label>
+		<input type="text" id="fname" name="fname" ><br><br>
+		<label for="lname">họ và tên đệm:</label>
+		<input type="text" name="lname" ><br><br>
+		<label for="email">email của bạn:</label>
+		<input type="text" name="email"><br><br>
+		<label for="pnumber">số điện thoại:</label>
+		<input type="text" name="pnumber"><br><br>
+		<label for="age">tuổi của bạn:</label>
+		<input type="text" name="age"><br><br>
+	</fieldset>
+	<fieldset>
+		<legend><em>nghề nghiệp của bạn</em></legend>
+		<input type="radio" id="hightschool" name="trinhdo" value="cấp3">
+		<label for="hightschool">cấp 3</label><br>
+		<input type="radio" id="university" name="trinhdo" value="đại học">
+		<label for="university">đại học</label><br>
+		<input type="radio" id="working" name="trinhdo" value="đi làm">
+		<label for="working">đi làm</label><br>
+		<input type="radio" id="retired" name="trinhdo" value="nghỉ hưu">
+		<label for="cap3">nghỉ hưu</label><br>
+	</fieldset>
+	<fieldset>
+		<legend><em>chọn khóa học</em></legend>
+		<input type="checkbox" id="khoa1" name="logic math" value="logic math">
+		<label for="khoa1">logic math-499k</label><br>
+		<input type="checkbox" id="khoa2" name="python basic" value="python basic">
+		<label for="khoa2">python basic-799k</label><br>
+		<input type="checkbox" id="khoa3" name="web basic" value="web basic">
+		<label for="khoa3">web basic-749k</label><br>
+		<input type="checkbox" id="khoa4" name="game python" value="game python">
+		<label for="khoa4">game python-149k</label><br>
+		<input type="checkbox" id="khoa5" name="data science basic" value="data science basic">
+		<label for="khoa5">data science basic-249k</label><br>
+		<input type="checkbox" id="khoa6" name="Al basic" value="Al basic">
+		<label for="khoa6">Al basic-499k</label><br>
+	</fieldset>
+	<label for="the">thanh toán bằng:</label>
+	<select id="the" name="thẻ">
+		<option value="thevisa"> thẻ visa</option>
+		<option value="thejbc">thẻ jbc</option>
+	</select>
+	<br>
+	<br>
+	<input type="submit" value="gửi">
+	<input type="reset" value="reset">
+</form>
+</body>
+</html>

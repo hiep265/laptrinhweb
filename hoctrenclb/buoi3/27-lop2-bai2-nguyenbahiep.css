@@ -1,0 +1,99 @@
+*{
+    margin: 0   ;
+    padding: 0;
+}
+
+.head{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://hoaidoan.vn/wp-content/uploads/2021/03/background-dep-5.png);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+ 
+.menu{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+   
+}
+a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.left{
+    align-self: center;
+    
+}
+.right{
+    align-self: center;
+    margin-right: 10px;
+}
+#text1{
+    text-align: center;
+    margin: 80px auto 50px auto;
+}
+.text-ff{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-f{
+    width: 70%;
+    
+}
+.text-m{
+    width: 70%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(https://kynguyenlamdep.com/wp-content/uploads/2021/12/hoang-hon-sau-bong-cay.jpg);
+   background-size: cover;
+}
+.text3{
+    width: 50%;
+    align-self: center;
+}
+#port{
+    text-align: center;
+}
+.card-f{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-y{
+    width: 20%;
+    height: 150px;
+    margin: 40px;
+    background-image: url(https://nguyenhoaithuong.net/wp-content/uploads/2022/04/xe-vinfast-vf-8-01.jpg);
+    background-size: cover;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(93, 95, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
